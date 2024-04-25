@@ -6,6 +6,7 @@
 
 with "a0b_common";
 
+with "a0b_armv7m";
 with "a0b_svd_atsam3x8e";
 
 project A0B_ATSAM3X8E is
