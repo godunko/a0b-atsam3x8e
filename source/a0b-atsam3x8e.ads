@@ -25,6 +25,8 @@ is
    Universal_Synchronous_Asynchronous_Receiver_Transmitter_2 : constant := 19;
    Universal_Synchronous_Asynchronous_Receiver_Transmitter_3 : constant := 20;
 
+   Two_Wire_Interface_0                                      : constant := 22;
+   Two_Wire_Interface_1                                      : constant := 23;
    Serial_Peripheral_Interface_0                             : constant := 24;
 
    Timer_Counter_Channel_0                                   : constant := 27;
