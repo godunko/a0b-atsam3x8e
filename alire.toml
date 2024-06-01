@@ -1,12 +1,12 @@
 name = "a0b_atsam3x8e"
-description = "A0B ATSAM3X8E"
+description = "A0B ATSAM3X8E MCU Support"
 version = "0.1.0-dev"
 
 authors = ["Vadim Godunko"]
 maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
 maintainers-logins = ["godunko"]
 licenses = "Apache-2.0 WITH LLVM-exception"
-tags = ["embedded", "atsam3x8e"]
+tags = ["embedded", "atsam3x8e", "sam3x8e", "arduino", "due", "svd"]
 
 project-files = ["gnat/a0b_atsam3x8e.gpr"]
 
