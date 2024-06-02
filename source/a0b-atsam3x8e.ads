@@ -15,6 +15,8 @@ is
 
    --  Peripheral identifiers/external interrupt identifiers.
 
+   Universal_Asynchronous_Receiver_Transceiver               : constant := 8;
+
    Parallel_IO_Controller_A                                  : constant := 11;
    Parallel_IO_Controller_B                                  : constant := 12;
    Parallel_IO_Controller_C                                  : constant := 13;
@@ -38,5 +40,17 @@ is
    Timer_Counter_Channel_6                                   : constant := 33;
    Timer_Counter_Channel_7                                   : constant := 34;
    Timer_Counter_Channel_8                                   : constant := 35;
+
+   type Line_Function is
+     (URXD,
+      UTXD,
+      --  UART
+
+      TWCK0,
+      TWD0,
+      TWCK1,
+      TWD1);
+      --  TWI
+   --  Function line
 
 end A0B.ATSAM3X8E;
