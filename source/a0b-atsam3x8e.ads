@@ -6,11 +6,16 @@
 
 pragma Restrictions (No_Elaboration_Code);
 
+with A0B.ARMv7M;
+
 package A0B.ATSAM3X8E
   with Pure
 is
 
-   type Peripheral_Identifier is range 0 .. 44;
+   subtype Interrupt_Number is
+     A0B.ARMv7M.External_Interrupt_Number range 0 .. 44;
+
+   subtype Peripheral_Identifier is Interrupt_Number;
    --  Peripheral identifier, value is equal to NVIC interrupt number.
 
    --  Peripheral identifiers/external interrupt identifiers.
