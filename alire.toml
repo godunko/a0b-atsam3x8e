@@ -1,6 +1,6 @@
 name = "a0b_atsam3x8e"
 description = "A0B ATSAM3X8E MCU Support"
-version = "0.2.0"
+version = "0.3.0-dev"
 
 authors = ["Vadim Godunko"]
 maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
