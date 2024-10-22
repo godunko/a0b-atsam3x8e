@@ -46,6 +46,28 @@ is
       UTXD,
       --  UART
 
+      CTS0,
+      RTS0,
+      RXD0,
+      SCK0,
+      TXD0,
+      CTS1,
+      RTS1,
+      RXD1,
+      SCK1,
+      TXD1,
+      CTS2,
+      RTS2,
+      RXD2,
+      SCK2,
+      TXD2,
+      CTS3,
+      RTS3,
+      RXD3,
+      SCK3,
+      TXD3,
+      --  USART
+
       TWCK0,
       TWD0,
       TWCK1,
