@@ -1,5 +1,6 @@
 name = "a0b_atsam3x8e"
-description = "A0B ATSAM3X8E MCU Support"
+description = "A0B ATSAM3X8E base and SVD package"
+website = "https://github.com/godunko/a0b-stm32f401"
 version = "0.3.0-dev"
 
 authors = ["Vadim Godunko"]
