@@ -4,12 +4,10 @@
 --  SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 --
 
-pragma Restrictions (No_Elaboration_Code);
-
 with A0B.ARMv7M;
 
 package A0B.ATSAM3X8E
-  with Pure
+  with Pure, No_Elaboration_Code_All
 is
 
    subtype Interrupt_Number is
