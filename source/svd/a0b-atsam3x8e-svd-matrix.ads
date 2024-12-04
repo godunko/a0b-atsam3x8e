@@ -2,7 +2,6 @@ pragma Style_Checks (Off);
 
 --  This spec has been automatically generated from ATSAM3X8E.svd
 
-pragma Restrictions (No_Elaboration_Code);
 
 with A0B.Types.SVD;
 with System;
@@ -10,6 +9,7 @@ with System;
 --  AHB Bus Matrix
 package A0B.ATSAM3X8E.SVD.MATRIX is
    pragma Preelaborate;
+   pragma No_Elaboration_Code_All;
 
    ---------------
    -- Registers --

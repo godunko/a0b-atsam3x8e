@@ -2,13 +2,13 @@ pragma Style_Checks (Off);
 
 --  This spec has been automatically generated from ATSAM3X8E.svd
 
-pragma Restrictions (No_Elaboration_Code);
 
 with System;
 
 --  Atmel ATSAM3X8E Microcontroller
 package A0B.ATSAM3X8E.SVD is
    pragma Preelaborate;
+   pragma No_Elaboration_Code_All;
 
    --------------------
    -- Base addresses --

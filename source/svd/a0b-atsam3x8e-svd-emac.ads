@@ -2,7 +2,6 @@ pragma Style_Checks (Off);
 
 --  This spec has been automatically generated from ATSAM3X8E.svd
 
-pragma Restrictions (No_Elaboration_Code);
 
 with A0B.Types.SVD;
 with System;
@@ -10,6 +9,7 @@ with System;
 --  Ethernet MAC 10/100
 package A0B.ATSAM3X8E.SVD.EMAC is
    pragma Preelaborate;
+   pragma No_Elaboration_Code_All;
 
    ---------------
    -- Registers --
