@@ -1,0 +1,12 @@
+{
+  "project": "a0b_atsam3x8e.gpr",
+  "unit": "A0B.ATSAM3X8E.Startup_Utilities",
+  "subprogram": "A0B.ATSAM3X8E.Startup_Utilities.Generic_Configure_System_Clocks",
+  "parameters":
+  {
+    "FLASH_WAIT_STATE": "dt:&eefc:wait-state",
+    "DIV": "dt:&pmc:div",
+    "MUL": "dt:&pmc:mul",
+    "PRES": "dt:&pmc:prescaler"
+  }
+}
